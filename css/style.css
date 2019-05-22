@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(11,200,52,1) 100%);
+  background-size: 400% 400%;
+  
+  font-family: 'Source Sans Pro', sans-serif;
+	font-weight: normal;
+	letter-spacing: .04rem;
+	line-height: 1.5;
+	word-wrap: break-word;
+/*color: #eee;*/
+}
+
+  @-webkit-keyframes rotate {
+      0%{background-position:43% 0%}
+      50%{background-position:58% 100%}
+      100%{background-position:43% 0%}
+  }
+  @-moz-keyframes rotate {
+      0%{background-position:43% 0%}
+      50%{background-position:58% 100%}
+      100%{background-position:43% 0%}
+  }
+  @keyframes rotate {
+      0%{background-position:43% 0%}
+      50%{background-position:58% 100%}
+      100%{background-position:43% 0%}
+  }
+
+section {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+  h1 {
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+
+  p {
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+
+  .headline {
+    padding: 5% 0;
+  }
+  .wrapUp{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .circleOne, .circleTwo, .circleThree, .circleFour {
+    margin: 0 20px;
+
+  }
+
+  .circle {
+    display: inline-block;
+    height: 7vw;
+    width: 7vw;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    background: blue;
+  }
+
+
+.myButton {
+box-shadow: 0px 10px 14px -7px #276873;
+background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+border-radius:8px;
+display:inline-block;
+cursor:pointer;
+color:#eee;
+font-size:20px;
+font-weight:bold;
+padding:20px 32px;
+margin: 3%;
+text-decoration:none;
+text-shadow:0px 1px 34px #3d768a;
+}
+
+.myButton:active {
+	position:relative;
+	top:2px;
+}
