@@ -1,6 +1,7 @@
 function click(i) {
   if (i !== current) {
     stopButton();
+     alert("Game over" + "\n" + "You scored " + score);
   }
   else {
     score++;
